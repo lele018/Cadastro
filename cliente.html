@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/cssl/style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/imgl/undraw_Sign_up_n6im.png" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro do Cliente</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="index.html">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="codigo">Cód. do Cliente</label>
+                        <input  placeholder="0001" maxlength="0"/>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu Sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CPF</label>
+                        <input id="number" type="tel" name="number" placeholder="xxx.xxx.xxx.xx" maxlength="11"/ required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">RG</label>
+                        <input id="number" type="tel" name="number" placeholder="xx.xxx.xxx-x" maxlength="10"/ required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CNPJ</label>
+                        <input id="number" type="tel" name="number" placeholder="xx.xxx.xxx/xxxx-xx" maxlength="14"/ required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="dtnasc">Data Nasc</label>
+	                    <input type='date' id='dtnasc' name='dtnasc'>
+                    </div>
+ 
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" maxlength="11"/ required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu Email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Endereço">Endereço</label>
+                        <input id="Endereço" type="text" name="Endereço" placeholder="Digite seu Endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CEP</label>
+                        <input id="number" type="tel" name="number" placeholder="xxxxx-xxx" maxlength="8"/ required>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Observação:</label> 
+                        <textarea  type="text" id="campo_observacao" placeholder="Limite de 100 caracteres" maxlength="100"/></textarea>
+                        </div>
+
+                    <div class="field radiobox">
+                        <span>Deseja receber nossas novidades?</span>
+                        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                    </div>
+
+                    <div class="login-button">
+                        <button><input type="submit"></button>
+                        </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
